@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Concert One";
+    src: local(Concert One), url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format("truetype");  
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: local(roboto), url(../public/fonts/Roboto/Roboto-Medium.ttf) format("truetype");  
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Concert_One;
+}
+header{
+    display: flex;
+}
+.titulo{
+font-size:20px;
+font-family: Concert One;
+}
+
+.texto_inicio{
+    text-align: center;
+    font-family: roboto;
+    
+}
+.botao{
+    color: white;
+    background-color: black;
+    margin-left: auto;
+    padding: 5px 50px 5px 50px ;
+    border-radius: 10px;
+    height: 35px;
+}
+
+
+.rodape{
+    background-color: black;
+    color: white;
+}
+
