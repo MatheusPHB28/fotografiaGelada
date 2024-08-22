@@ -13,7 +13,7 @@
 }
 
 body{
-    font-family: Concert_One;
+    font-family: Concert One;
 }
 header{
     display: flex;
@@ -97,9 +97,47 @@ font-family: Concert One;
     grid-row-end: 5;
 }
 
+.icon-container{
+    position: relative;
+}
+.icons img:last-child{
+    padding: 0 0 0 20px;
+} 
+
+.icons{
+    display: flex;
+    position: absolute;
+    left: 1px;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.568);
+}
 
 .rodape{
     background-color: black;
     color: white;
+}
+.icons_rodape{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.texto_fim{
+    font-family: Concert One;
+    text-align: left;
+    text-indent: 20px;
+    position: relative;
+    margin: 0%;
+
+
+}
+.logo_rodape{
+    padding-left: 50px;
+    padding-right: 20px;
+    position: relative;
+    left: 250px;
+    
 }
 
